@@ -1,4 +1,5 @@
 #include <unordered_map>
+
 class Solution { 
     private:
         std::unordered_map<int, int> sequence;
