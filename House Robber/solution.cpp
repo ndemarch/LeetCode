@@ -15,7 +15,7 @@ public:
         int second = max(nums[0], nums[1]);
         for (int i = 2; i < n; i++){
             int currentSum = max(second, first + nums[i]);
-            first = secon;
+            first = second;
             second = currentSum;
         }
         return second;
